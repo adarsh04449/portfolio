@@ -1,7 +1,7 @@
 import React from "react";
 import { Timeline } from "../ui/timeline";
-import { stealthStartup } from "../../assets";
-import { dentalLogo } from "../../assets";
+import { stealthStartup, dentalLogo, max1, max2, max3, max4 } from "../../assets";
+
 
 export function Experience() {
   const data = [
@@ -24,7 +24,7 @@ export function Experience() {
                 Software Engineer Intern
           </h2>
 
-          <div>
+          <div className="mb-8">
             <ul className="text-white list-disc pl-5 marker:text-white">
               <li>Engineered full-stack dental care website using React.js and Node.js with Express implementing component-based architecture and RESTful APIs delivering scalable healthcare service platform for patient engagement</li>
               <li>Optimized performance through lazy loading and component rendering ensuring fast load times across the platform</li>
@@ -33,6 +33,33 @@ export function Experience() {
               <li>Integrated Joi validation middleware for form sanitization and security, establishing robust input validation</li>
               <li>Technology used: React.js, Node.js, Express.js, MongoDB, Git, AWS</li>
             </ul>
+          </div>
+
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src={max1}
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src={max2}
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src={max3}
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
+            <img
+              src={max4}
+              width={500}
+              height={500}
+              className="h-20 w-full rounded-lg object-cover shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset] md:h-44 lg:h-60"
+            />
           </div>
         </div>
       ),

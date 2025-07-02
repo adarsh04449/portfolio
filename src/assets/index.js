@@ -10,6 +10,10 @@ import stackOverflow from "./stackoverflow-1.png"
 import soccerMonk from "./soccer-monk.png"
 import stealthStartup from "./stealth-startup.png"
 import dentalLogo from "./title-logo.png"
+import max1 from "./max1.png"
+import max2 from "./max2.png"
+import max3 from "./max3.png"
+import max4 from "./max4.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -57,5 +61,9 @@ export {
     awslogo,
     pythonLogo,
     javalogo,
-    dentalLogo
+    dentalLogo,
+    max1,
+    max2,
+    max3,
+    max4
 }

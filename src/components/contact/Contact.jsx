@@ -1,5 +1,5 @@
 import { Linkedin, Github, Mail, Phone } from "lucide-react"
-import ContactForm from "./Contactform";
+import ContactForm from "./ContactForm";
 
 
 const Contact = () => {

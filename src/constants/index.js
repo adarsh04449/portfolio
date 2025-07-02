@@ -110,7 +110,7 @@ const projects = [
   {
     name: "GitHub Clone",
     description:
-      "Built a full-stack GitHub clone using React and Node.js featuring repository management and real-time collaboration with OAuth/JWT authentication. Architected AWS infrastructure supporting 1000+ users with Redis caching and MongoDB indexing.",
+      "Engineered a full-featured GitHub clone using React.js and Node.js, supporting repository management, issue tracking, and real-time collaboration. Deployed on AWS with S3, EC2, and Amplify for scalable performance and 99% uptime. Enhanced backend speed with MongoDB indexing and Redis caching, and ensured reliability through a CI/CD pipeline with GitHub Actions and Jest",
     tags: [
       {
         name: "React.js",

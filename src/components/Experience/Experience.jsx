@@ -15,9 +15,11 @@ export function Experience() {
               alt="Stealth Fintech AI Startup Logo"
               className="w-10 h-10 rounded-full object-cover border border-white"
             />
-            <h1 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200">
-                Max Dental Care
-            </h1>
+            <a href="https://max-dental-care.com/">
+              <h1 className="text-2xl font-bold text-neutral-800 dark:text-neutral-200">
+                  Max Dental Care
+              </h1>
+            </a>
           </div>
 
           <h2 className="text-xl text-neutral-800 dark:text-neutral-200">

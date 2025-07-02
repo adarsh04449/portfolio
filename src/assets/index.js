@@ -14,6 +14,7 @@ import max1 from "./max1.png"
 import max2 from "./max2.png"
 import max3 from "./max3.png"
 import max4 from "./max4.png"
+import logo from "./logo.svg"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -65,5 +66,6 @@ export {
     max1,
     max2,
     max3,
-    max4
+    max4,
+    logo
 }

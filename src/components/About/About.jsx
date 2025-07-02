@@ -39,8 +39,8 @@ const About = () => {
             <p className="text-xl text-gray-400">Introduction</p>
             <h1 className="text-5xl font-bold">Overview</h1>
             <p className="mt-4 text-white text-secondary text-xl max-w-4xl leading-[30px]">
-                    A dedicated Computer Science student with hands-on experience in<FlipWords words={words} className="p-[5px]"/>
-                    <br />Skilled in data structures, algorithms, and leveraging diverse technologies to create efficient solutions. I am active in leadership roles, club participation, and community initiatives.
+                    A dedicated Computer Science student with hands-on experience in  <span className="inline-block align-baseline min-w-[100px]"><FlipWords words={words}/> </span>
+                    Skilled in data structures, algorithms, and leveraging diverse technologies to create efficient solutions. I am active in leadership roles, club participation, and community initiatives.
             </p>
             <div className='mt-10 flex flex-wrap gap-10 w-full h-full justify-center md:justify-start'>
                 {services.map((service, index) => (<ServiceCard key={service.title} 

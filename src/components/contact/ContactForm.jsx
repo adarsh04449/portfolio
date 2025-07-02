@@ -29,7 +29,7 @@ const ContactForm = () => {
         <input
           type="text"
           name="name"
-          placeholder="Your Name"
+          placeholder="Name"
           value={form.name}
           onChange={handleChange}
           required
@@ -39,7 +39,7 @@ const ContactForm = () => {
         <input
           type="email"
           name="email"
-          placeholder="Your Email"
+          placeholder="Email"
           value={form.email}
           onChange={handleChange}
           required
@@ -49,7 +49,7 @@ const ContactForm = () => {
         <textarea
           name="message"
           rows="5"
-          placeholder="Your Message"
+          placeholder="Message"
           value={form.message}
           onChange={handleChange}
           required

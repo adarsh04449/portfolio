@@ -29,7 +29,7 @@ import {
 
 const services = [
     {
-      title: "Web Developer",
+      title: "AI/ML Enthusiast ",
       icon: web,
     },
     {

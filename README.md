@@ -1,4 +1,4 @@
-🌐 Personal Portfolio
+# 🌐 Personal Portfolio
 Welcome to my personal portfolio website built using React and Tailwind CSS. This project showcases my skills, projects, and experiences as a developer in a responsive, modern, and visually engaging design.
 
 🚀 Live Demo
